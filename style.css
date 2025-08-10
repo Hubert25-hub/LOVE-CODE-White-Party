@@ -70,4 +70,14 @@ body {
     color: green;
     font-weight: bold;
   }
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    padding: 10px;
+  }
+}
+
+
   
