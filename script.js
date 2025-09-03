@@ -53,8 +53,9 @@ document.addEventListener("DOMContentLoaded", function () {
         message.innerHTML = `
           LOVE CODE-WHITE PARTY <br><br>
           Merci ${prenom} pour l'enregistrement.<br><br>
-        LES PLACES SONT PLUS DISPONIBLE
-        merci pour votre comprehension 
+          <span style="color:red; font-weight:bold;">LES PLACES NE SONT PLUS DISPONIBLES</span><br>
+          Merci pour votre compréhension.
+        `;
       } else {
         message.style.color = "red";
         message.textContent = "❌ Erreur côté serveur.";
@@ -66,4 +67,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-
