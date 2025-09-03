@@ -53,12 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
         message.innerHTML = `
           LOVE CODE-WHITE PARTY <br><br>
           Merci ${prenom} pour l'enregistrement.<br><br>
-          La localisation vous sera envoyée via mail (vérifiez vos spams) 
-          dans les jours à venir (juste à l’approche de l’événement).<br><br>
-          L'entrée est soumise à l'achat d’un <b>BRACELET LUMINEUX</b>.<br><br>
-          Droit de bouchon 0F (apporte ta boisson).<br><br>
-          Vivons, profitons ensemble de cette belle ambiance au cœur de Lomé.
-        `;
+        LES PLACES SONT PLUS DISPONIBLE
+        merci pour votre comprehension 
       } else {
         message.style.color = "red";
         message.textContent = "❌ Erreur côté serveur.";
@@ -70,3 +66,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
